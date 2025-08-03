@@ -29,3 +29,4 @@ vim.cmd.colorscheme("catppuccin")
 local builtin = require("telescope.builtin")
 
 require("keymaps")
+
