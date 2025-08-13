@@ -15,7 +15,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 require("lsp")
 
-
 vim.opt.number = true           -- Show line numbers
 vim.opt.relativenumber = true   -- Show relative line numbers
 vim.opt.tabstop = 4             -- Number of spaces a tab counts for
