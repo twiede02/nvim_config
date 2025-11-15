@@ -16,6 +16,13 @@ return {
             hide_gitignored = true,
           },
         },
+        window = {
+            mappings = {
+                ["u"] = "navigate_up",   -- go to parent directory
+                ["P"] = "set_root",      -- reset root to project root
+            },
+        }
+
       })
     end,
   },

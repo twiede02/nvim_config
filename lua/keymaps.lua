@@ -12,7 +12,7 @@ vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to lower window" })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move to upper window" })
 
 vim.keymap.set("n", "<leader>t", ":Neotree toggle<CR>", { desc = "Toggle Neo-Tree" })
-vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')
+-- vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')
 
 vim.keymap.set("n", "<S-l>", "<Plug>(cokeline-focus-next)", { desc = "Next buffer" })
 vim.keymap.set("n", "<S-h>", "<Plug>(cokeline-focus-prev)", { desc = "Prev buffer" })
