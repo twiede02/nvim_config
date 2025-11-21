@@ -9,6 +9,9 @@ local on_attach = function(_, bufnr)
 
   -- Show diagnostics for the current line
   vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, opts)
+
+  vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
+  vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
 end
 
 cmp.setup({
